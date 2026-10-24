@@ -1,0 +1,2 @@
+[claims]
+none = "This repo ships no capability. It holds the org profile, image assets and an art generator; nothing here runs, detects, measures or stores anything, so there is no claim to map to code and a test. The one statement in README.md about rendering is about GitHub's own behaviour, not ours."
