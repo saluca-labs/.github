@@ -1,0 +1,37 @@
+# saluca-labs/.github
+
+> Org-level files for Saluca Labs: the org profile README, the shared artwork, and the generator that produced it. No product code lives here.
+
+This repository only serves the public face of the `saluca-labs` GitHub organization. If you are
+looking for runnable research, start at https://github.com/saluca-labs and read a repo's own
+`llms.txt`.
+
+## Docs
+
+- [profile/README.md](profile/README.md): the file GitHub renders on the org page. One paragraph
+  of what Saluca Labs is, then every public repo grouped as Start here / Research and reproduction
+  / Security and detection / Systems / For agents.
+- [README.md](README.md): what this repo contains, how to hotlink a per-repo header, and how to
+  regenerate the art.
+- [tools/README.md](tools/README.md): generator inputs, dependencies and outputs.
+
+## Code
+
+- [tools/cardgen.py](tools/cardgen.py): the generator. HTML/CSS rendered by Playwright at exact
+  pixel size. Reads a repo list as JSON, writes `social/<repo>.png` (1280 x 640) and
+  `readme/<repo>.png` (1200 x 300). Raises on a repo with no portrait mapping or no blurb.
+- [tools/org_repos.json](tools/org_repos.json): the `gh repo list --json` output the current art
+  was generated from. Pinned so a rerun reproduces the same cards.
+
+## Assets
+
+- `assets/banner.png`: org profile header, 1280 x 400.
+- `assets/social-preview.png`: org social preview, 1280 x 640.
+- `assets/readme/<repo>.jpg`: per-repo README header, 1200 x 300, 18 files.
+- `assets/portraits/`: pr0fx, Tiresias and Asphodel portraits plus the Saluca shield.
+
+## Optional
+
+- Palette: void `#050713`, indigo `#0d0a24`, cyan `#22e8ff`, magenta `#ff3fe0`, violet `#8b5cf6`,
+  chrome `#c9cdd1`.
+- Social preview images are uploaded through repo Settings; GitHub exposes no API for that step.
