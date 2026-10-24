@@ -35,3 +35,4 @@ looking for runnable research, start at https://github.com/saluca-labs and read 
 - Palette: void `#050713`, indigo `#0d0a24`, cyan `#22e8ff`, magenta `#ff3fe0`, violet `#8b5cf6`,
   chrome `#c9cdd1`.
 - Social preview images are uploaded through repo Settings; GitHub exposes no API for that step.
+- Licence: FSL-1.1-Apache-2.0, source-available, converting to Apache 2.0 after two years.

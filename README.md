@@ -79,7 +79,9 @@ DOI, that you actually used.
 
 ## License
 
-No license is granted for the artwork. The generator script in `tools/` is available to read.
+Functional Source License 1.1, Apache 2.0 future licence (FSL-1.1-Apache-2.0). Source-available:
+each release converts to Apache 2.0 after two years, and the conversion covers the artwork in this
+repo as well as the generator script. See [`LICENSE`](LICENSE).
 
 ## Links
 
