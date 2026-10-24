@@ -2,7 +2,7 @@
 
 # Saluca Labs
 
-Research branch of Saluca LLC. Open code, open records, open review.
+Open code, open records, open review.
 
 We publish work that a stranger can run and a reviewer can check: reproduction harnesses,
 data sets, detection content, and standards. Every public repo carries a README that takes you
